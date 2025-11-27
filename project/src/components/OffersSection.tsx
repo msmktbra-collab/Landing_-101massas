@@ -57,7 +57,7 @@ const OffersSection: React.FC = () => {
               <p className="text-xs text-neutral-600 mb-4">(Menos que um lanche na padaria!)</p>
               <a
                 href="#"
-                className="block w-full bg-success-600 hover:bg-success-700 text-white font-bold py-3 px-6 rounded-full text-xs md:text-sm shadow-md hover:shadow-lg transition-all duration-200 text-center whitespace-nowrap"
+                className="block bg-success-600 hover:bg-success-700 text-white font-bold py-3 px-4 md:px-6 rounded-full text-sm md:text-base shadow-md hover:shadow-lg transition-all duration-200 text-center whitespace-nowrap inline-block"
               >
                 QUERO MEU E-BOOK
               </a>
@@ -112,7 +112,7 @@ const OffersSection: React.FC = () => {
               <div className="text-6xl font-black text-success-600 mb-4 animate-pulse">R$19</div>
               <a
                 href="#"
-                className="block w-full bg-success-600 hover:bg-success-700 text-white font-bold py-3 px-6 rounded-full text-xs md:text-sm shadow-md hover:shadow-lg transition-all duration-200 text-center whitespace-nowrap"
+                className="block bg-success-600 hover:bg-success-700 text-white font-bold py-3 px-4 md:px-6 rounded-full text-sm md:text-base shadow-md hover:shadow-lg transition-all duration-200 text-center whitespace-nowrap inline-block"
               >
                 QUERO MEU E-BOOK + BÔNUS
               </a>
