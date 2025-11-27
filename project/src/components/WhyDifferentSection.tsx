@@ -53,7 +53,7 @@ const WhyDifferentSection: React.FC = () => {
           <div className="text-center">
             <button
               onClick={scrollToOffers}
-              className="bg-success-600 hover:bg-success-700 text-white font-bold py-4 px-8 md:px-10 rounded-full text-sm md:text-base shadow-md hover:shadow-lg transition-all duration-200 w-full max-w-sm whitespace-nowrap overflow-hidden text-ellipsis"
+              className="bg-success-600 hover:bg-success-700 text-white font-bold py-3 px-6 rounded-full text-xs md:text-sm shadow-md hover:shadow-lg transition-all duration-200 w-full max-w-lg whitespace-nowrap"
             >
               QUERO MEU E-BOOK AGORA
             </button>
