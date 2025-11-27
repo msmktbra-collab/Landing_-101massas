@@ -98,22 +98,22 @@ const RecipesShowcase: React.FC = () => {
   ];
 
   return (
-    <section className="bg-urgency-600 py-10 md:py-14">
+    <section className="bg-red-600 py-8 md:py-12">
       <div className="container mx-auto px-4">
-        <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold mb-3 leading-tight px-2 text-white">
+        <div className="text-center mb-8">
+          <h2 className="text-xl md:text-3xl font-bold mb-3 leading-tight px-2 text-white">
             Veja o que você vai aprender a fazer (gastando pouco!):
           </h2>
-          <p className="text-white/80 text-sm md:text-base font-normal px-2">
+          <p className="text-white/90 text-sm md:text-base italic font-light mb-2 px-2">
             Receitas que transformam ingredientes simples em pratos de restaurante.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-6 max-w-5xl mx-auto mb-8 px-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6 max-w-5xl mx-auto mb-6 px-2">
           {recipes.map((recipe, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+              className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 border-2 border-white overflow-hidden"
             >
               <img
                 src={recipe.image}
@@ -122,21 +122,21 @@ const RecipesShowcase: React.FC = () => {
                 loading="lazy"
               />
               <div className="p-4">
-                <h3 className="font-bold text-base mb-2 leading-tight text-neutral-900 text-center">{recipe.title}</h3>
-                <p className="text-neutral-500 text-sm leading-relaxed mb-3 text-center">{recipe.description}</p>
+                <h3 className="font-bold text-lg mb-2 leading-tight text-red-600 text-center">{recipe.title}</h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-3 text-center">{recipe.description}</p>
 
-                <div className="flex justify-center space-x-3">
-                  <div className="flex items-center space-x-1 bg-urgency-600/10 px-3 py-1 rounded-full">
-                    <svg className="w-4 h-4 text-urgency-600" fill="currentColor" viewBox="0 0 20 20">
+                <div className="flex justify-center space-x-4">
+                  <div className="flex items-center space-x-1 bg-red-100 px-3 py-1 rounded-full">
+                    <svg className="w-4 h-4 text-red-600" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clipRule="evenodd" />
                     </svg>
-                    <span className="text-urgency-600 text-xs font-semibold">{recipe.time}</span>
+                    <span className="text-red-600 text-xs font-semibold">{recipe.time}</span>
                   </div>
-                  <div className="flex items-center space-x-1 bg-cta-600/10 px-3 py-1 rounded-full">
-                    <svg className="w-4 h-4 text-cta-600" fill="currentColor" viewBox="0 0 20 20">
+                  <div className="flex items-center space-x-1 bg-green-100 px-3 py-1 rounded-full">
+                    <svg className="w-4 h-4 text-green-600" fill="currentColor" viewBox="0 0 20 20">
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                     </svg>
-                    <span className="text-cta-600 text-xs font-semibold">{recipe.ingredients}</span>
+                    <span className="text-green-600 text-xs font-semibold">{recipe.ingredients}</span>
                   </div>
                 </div>
               </div>
@@ -145,13 +145,13 @@ const RecipesShowcase: React.FC = () => {
         </div>
 
         <div className="text-center">
-          <div className="mb-6 bg-white p-5 rounded-xl max-w-lg mx-auto shadow-lg mx-2">
+          <div className="mb-6 bg-white p-4 rounded-xl max-w-lg mx-auto border-2 border-white shadow-md transform hover:scale-105 transition-all duration-300 mx-2">
             <div className="flex items-center justify-center space-x-2 mb-2">
-              <Sparkles className="text-gold-500" size={18} />
-              <p className="text-lg font-bold text-neutral-900">E MUITO MAIS...</p>
-              <Sparkles className="text-gold-500" size={18} />
+              <Sparkles className="text-red-600 animate-pulse" size={18} />
+              <p className="text-lg font-bold text-red-600">E MUITO MAIS...</p>
+              <Sparkles className="text-green-600 animate-pulse" size={18} />
             </div>
-            <p className="text-sm text-neutral-600 font-medium leading-relaxed">São mais de 105 receitas pensadas para sua rotina: receitas one-pot, molhos caseiros, adaptações brasileiras, massas gratinadas, vegetarianas, com proteína e saladas de massa.</p>
+            <p className="text-sm text-gray-700 font-semibold leading-tight">São mais de 105 receitas pensadas para sua rotina: receitas one-pot, molhos caseiros, adaptações brasileiras, massas gratinadas, vegetarianas, com proteína e saladas de massa.</p>
           </div>
         </div>
       </div>

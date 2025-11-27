@@ -64,18 +64,18 @@ a:focus {
   outline-offset: 2px;
 }
 
-/* Subtle emphasis animation for price */
-@keyframes gentle-emphasis {
+/* Custom pulse animation for price */
+@keyframes custom-pulse {
   0%, 100% {
-    opacity: 1;
+    transform: scale(1);
   }
   50% {
-    opacity: 0.85;
+    transform: scale(1.05);
   }
 }
 
 .animate-pulse {
-  animation: gentle-emphasis 3s ease-in-out infinite;
+  animation: custom-pulse 2s infinite;
 }
 
 /* Reduced spacing between sections */

@@ -10,9 +10,9 @@ const BenefitsSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-neutral-50 py-8 md:py-12">
+    <section className="bg-gray-50 py-4 md:py-6">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 px-2 text-neutral-900">
+        <h2 className="text-lg md:text-2xl font-bold text-center mb-4 animate-fade-in px-2 text-red-600">
           Por que escolher este e-book:
         </h2>
         
@@ -21,12 +21,13 @@ const BenefitsSection: React.FC = () => {
             {benefits.map((benefit, index) => (
               <div 
                 key={index} 
-                className="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-neutral-200"
+                className="flex items-center space-x-3 p-3 bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100"
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="w-5 h-5 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <span className="text-white text-xs font-bold">✓</span>
+                <div className="w-6 h-6 bg-green-600 rounded-full flex items-center justify-center flex-shrink-0 shadow-sm">
+                  <span className="text-white text-sm font-bold">✓</span>
                 </div>
-                <span className="text-neutral-700 text-sm md:text-base font-medium leading-relaxed">{benefit}</span>
+                <span className="text-gray-800 text-sm md:text-base font-medium leading-relaxed">{benefit}</span>
               </div>
             ))}
           </div>
