@@ -43,7 +43,7 @@ const FAQSection: React.FC = () => {
   return (
     <section className="bg-white py-8 md:py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-lg md:text-2xl font-bold text-center mb-6 text-red-600 px-2">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-neutral-900 px-2">
           Perguntas Frequentes
         </h2>
         
@@ -51,23 +51,23 @@ const FAQSection: React.FC = () => {
           {faqItems.map((item, index) => (
             <div 
               key={index}
-              className="bg-white rounded-lg shadow-md mb-3 overflow-hidden border border-gray-200"
+              className="bg-white rounded-lg shadow-sm mb-3 overflow-hidden border border-neutral-200 hover:shadow-md transition-shadow duration-300"
             >
               <button
                 onClick={() => toggleItem(index)}
-                className="w-full px-4 py-4 text-left flex items-center justify-between hover:bg-gray-50 transition-colors duration-200"
+                className="w-full px-4 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors duration-200"
               >
-                <span className="font-semibold text-sm md:text-base text-gray-800 pr-2">{item.question}</span>
+                <span className="font-semibold text-sm md:text-base text-neutral-900 pr-2">{item.question}</span>
                 {openItem === index ? (
-                  <ChevronUp className="text-red-600 flex-shrink-0" size={20} />
+                  <ChevronUp className="text-primary-600 flex-shrink-0" size={20} />
                 ) : (
-                  <ChevronDown className="text-red-600 flex-shrink-0" size={20} />
+                  <ChevronDown className="text-primary-600 flex-shrink-0" size={20} />
                 )}
               </button>
               
               {openItem === index && (
-                <div className="px-4 pb-3">
-                  <p className="text-gray-700 leading-relaxed text-sm md:text-base">{item.answer}</p>
+                <div className="px-4 pb-4">
+                  <p className="text-neutral-700 leading-relaxed text-sm md:text-base">{item.answer}</p>
                 </div>
               )}
             </div>

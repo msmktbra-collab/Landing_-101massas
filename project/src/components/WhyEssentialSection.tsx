@@ -85,7 +85,7 @@ const WhyEssentialSection: React.FC = () => {
           <div className="text-center">
             <button
               onClick={scrollToOffers}
-              className="bg-green-600 hover:bg-green-700 text-white font-bold py-4 px-6 md:px-8 rounded-full text-base md:text-lg shadow-lg transform hover:scale-105 transition-all duration-300 hover:shadow-xl w-full max-w-sm animate-pulse"
+              className="bg-success-600 hover:bg-success-700 text-white font-bold py-4 px-8 md:px-10 rounded-full text-base md:text-lg shadow-md hover:shadow-lg transition-all duration-200 w-full max-w-sm"
             >
               QUERO MEU E-BOOK AGORA POR R$19
             </button>
