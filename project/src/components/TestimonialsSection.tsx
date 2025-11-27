@@ -60,7 +60,7 @@ const TestimonialsSection: React.FC = () => {
                       className="w-10 h-10 rounded-full object-cover"
                       loading="lazy"
                     />
-                    <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-success-500 border-2 border-white rounded-full"></div>
+                    <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-cta-600 border-2 border-white rounded-full"></div>
                   </div>
                   <div>
                     <div className="flex items-center space-x-1">
@@ -83,11 +83,11 @@ const TestimonialsSection: React.FC = () => {
 
               {/* Ações do post */}
               <div className="flex items-center space-x-4 px-4 py-3 border-t border-neutral-100">
-                <button className="flex items-center space-x-1 text-neutral-600 hover:text-primary-600 transition-colors">
+                <button className="flex items-center space-x-1 text-neutral-500 hover:text-urgency-600 transition-colors">
                   <Heart size={16} />
                   <span className="text-xs font-medium">{testimonial.likes}</span>
                 </button>
-                <button className="flex items-center space-x-1 text-neutral-600 hover:text-primary-600 transition-colors">
+                <button className="flex items-center space-x-1 text-neutral-500 hover:text-accent-500 transition-colors">
                   <MessageCircle size={16} />
                   <span className="text-xs">Comentar</span>
                 </button>

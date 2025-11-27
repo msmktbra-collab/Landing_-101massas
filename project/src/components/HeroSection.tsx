@@ -30,12 +30,12 @@ const HeroSection: React.FC = () => {
           </div>
 
           <div className="mb-8 px-4">
-            <p className="text-sm text-neutral-500 line-through mb-2">De R$127 por apenas</p>
+            <p className="text-sm text-urgency-600 line-through mb-2 font-medium">De R$127 por apenas</p>
             <p className="text-sm text-neutral-600 mb-3">(Menos que um lanche na padaria!)</p>
-            <p className="text-5xl md:text-6xl font-black text-success-600 mb-6 animate-pulse">R$19</p>
+            <p className="text-5xl md:text-6xl font-black text-gold-500 mb-6 drop-shadow-sm">R$19</p>
             <button 
               onClick={scrollToOffers}
-              className="bg-success-600 hover:bg-success-700 text-white font-bold py-4 px-8 md:px-10 rounded-full text-base md:text-lg shadow-md hover:shadow-lg transition-all duration-200 w-full max-w-sm"
+              className="bg-cta-600 hover:bg-cta-700 text-white font-bold py-4 px-8 md:px-10 rounded-full text-base md:text-lg shadow-lg hover:shadow-xl transition-all duration-200 w-full max-w-sm"
             >
               QUERO MEU E-BOOK POR R$19
             </button>

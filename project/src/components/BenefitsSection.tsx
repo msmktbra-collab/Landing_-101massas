@@ -23,7 +23,7 @@ const BenefitsSection: React.FC = () => {
                 key={index} 
                 className="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-neutral-200"
               >
-                <div className="w-5 h-5 bg-success-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-5 h-5 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                   <span className="text-white text-xs font-bold">✓</span>
                 </div>
                 <span className="text-neutral-700 text-sm md:text-base font-medium leading-relaxed">{benefit}</span>

@@ -33,7 +33,7 @@ const WhyDifferentSection: React.FC = () => {
                 key={index}
                 className="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-neutral-200"
               >
-                <div className="w-5 h-5 bg-success-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
+                <div className="w-5 h-5 bg-accent-500 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                   <Check className="w-4 h-4 text-white" strokeWidth={3} />
                 </div>
                 <span className="text-neutral-700 text-sm md:text-base font-medium leading-relaxed">{feature}</span>
@@ -41,7 +41,7 @@ const WhyDifferentSection: React.FC = () => {
             ))}
           </div>
 
-          <div className="bg-white p-6 rounded-lg shadow-md border border-neutral-200 mb-6">
+          <div className="bg-white p-6 rounded-xl shadow-md border-2 border-gold-500 mb-6">
             <h3 className="text-lg md:text-xl font-bold text-neutral-900 text-center mb-3">
               Garantia de Satisfação Total
             </h3>
@@ -53,11 +53,11 @@ const WhyDifferentSection: React.FC = () => {
           <div className="text-center">
             <button
               onClick={scrollToOffers}
-              className="bg-success-600 hover:bg-success-700 text-white font-bold py-4 px-8 md:px-10 rounded-full text-base md:text-lg shadow-md hover:shadow-lg transition-all duration-200 w-full max-w-sm"
+              className="bg-cta-600 hover:bg-cta-700 text-white font-bold py-4 px-8 md:px-10 rounded-full text-base md:text-lg shadow-lg hover:shadow-xl transition-all duration-200 w-full max-w-sm"
             >
               QUERO MEU E-BOOK AGORA
             </button>
-            <p className="text-neutral-600 text-sm mt-4">
+            <p className="text-neutral-500 text-sm mt-4">
               Compra 100% segura e entrega imediata
             </p>
           </div>

@@ -59,9 +59,9 @@ const FAQSection: React.FC = () => {
               >
                 <span className="font-semibold text-sm md:text-base text-neutral-900 pr-2">{item.question}</span>
                 {openItem === index ? (
-                  <ChevronUp className="text-primary-600 flex-shrink-0" size={20} />
+                  <ChevronUp className="text-accent-500 flex-shrink-0" size={20} />
                 ) : (
-                  <ChevronDown className="text-primary-600 flex-shrink-0" size={20} />
+                  <ChevronDown className="text-accent-500 flex-shrink-0" size={20} />
                 )}
               </button>
               

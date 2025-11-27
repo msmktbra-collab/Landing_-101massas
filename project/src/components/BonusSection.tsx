@@ -28,7 +28,7 @@ const BonusSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold text-center mb-8 text-neutral-900 px-2">
           <span className="inline-flex items-center space-x-2">
-            <Gift className="text-primary-600" size={24} />
+            <Gift className="text-gold-500" size={24} />
             <span>Bônus Inclusos (Sem Custo Extra):</span>
           </span>
         </h2>
@@ -37,7 +37,7 @@ const BonusSection: React.FC = () => {
           {bonuses.map((bonus, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg p-4 md:p-5 shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center space-x-4 border border-neutral-200"
+              className="bg-white rounded-xl p-4 md:p-5 shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center space-x-4 border border-neutral-200"
             >
               <img
                 src={bonus.image}
@@ -47,13 +47,13 @@ const BonusSection: React.FC = () => {
               />
               <div className="flex-1">
                 <h3 className="text-sm md:text-base font-bold mb-1 text-neutral-900 leading-tight">
-                  <span className="text-primary-600">{bonus.title.split(' — ')[0]}</span>
-                  <span className="text-neutral-700"> {bonus.title.split(' — ')[1]}</span>
+                  <span className="text-gold-600">{bonus.title.split(' — ')[0]}</span>
+                  <span className="text-neutral-700"> — {bonus.title.split(' — ')[1]}</span>
                 </h3>
-                <p className="text-xs md:text-sm text-neutral-700 mb-2 leading-snug">{bonus.description}</p>
+                <p className="text-xs md:text-sm text-neutral-600 mb-2 leading-snug">{bonus.description}</p>
                 <div className="flex items-center space-x-3">
-                  <span className="text-xs md:text-sm line-through text-neutral-500">{bonus.originalPrice}</span>
-                  <span className="bg-success-600 text-white px-3 py-1 rounded-full font-bold text-xs md:text-sm">
+                  <span className="text-xs md:text-sm line-through text-neutral-400">{bonus.originalPrice}</span>
+                  <span className="bg-cta-600 text-white px-3 py-1 rounded-full font-bold text-xs md:text-sm">
                     Grátis
                   </span>
                 </div>
@@ -61,7 +61,7 @@ const BonusSection: React.FC = () => {
             </div>
           ))}
           <div className="text-center mt-6">
-            <p className="text-neutral-700 font-semibold text-base md:text-lg px-4 py-3 bg-neutral-100 rounded-lg border border-primary-600 inline-block">
+            <p className="text-neutral-700 font-semibold text-base md:text-lg px-4 py-3 bg-gold-500/10 rounded-lg border border-gold-500/30 inline-block">
               Ao garantir seu ebook hoje, você leva tudo isso SEM CUSTO EXTRA!
             </p>
           </div>
