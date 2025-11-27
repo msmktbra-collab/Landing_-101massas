@@ -24,44 +24,44 @@ const BonusSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-gray-50 py-8 md:py-12">
+    <section className="bg-neutral-50 py-8 md:py-12">
       <div className="container mx-auto px-4">
-        <h2 className="text-lg md:text-2xl font-bold text-center mb-6 text-red-600 px-2">
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-8 text-neutral-900 px-2">
           <span className="inline-flex items-center space-x-2">
-            <Gift className="text-red-600 animate-bounce" size={24} />
+            <Gift className="text-primary-600" size={24} />
             <span>Bônus Inclusos (Sem Custo Extra):</span>
           </span>
         </h2>
 
-        <div className="max-w-3xl mx-auto space-y-3 px-2">
+        <div className="max-w-3xl mx-auto space-y-4 px-2">
           {bonuses.map((bonus, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl p-3 md:p-4 shadow-lg hover:shadow-xl transition-all duration-300 flex items-center space-x-3 md:space-x-4 border-2 border-red-200"
+              className="bg-white rounded-lg p-4 md:p-5 shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center space-x-4 border border-neutral-200"
             >
               <img
                 src={bonus.image}
                 alt={bonus.title}
-                className="w-24 h-24 md:w-32 md:h-32 rounded-xl object-cover flex-shrink-0 border-2 border-red-100 shadow-md"
+                className="w-20 h-20 md:w-28 md:h-28 rounded-lg object-cover flex-shrink-0 shadow-sm"
                 loading="lazy"
               />
               <div className="flex-1">
-                <h3 className="text-xs md:text-sm font-bold mb-1 md:mb-2 text-red-600 leading-tight">
-                  <span className="text-red-600">{bonus.title.split(' — ')[0]} —</span>
-                  <span className="text-gray-800"> {bonus.title.split(' — ')[1]}</span>
+                <h3 className="text-sm md:text-base font-bold mb-1 text-neutral-900 leading-tight">
+                  <span className="text-primary-600">{bonus.title.split(' — ')[0]}</span>
+                  <span className="text-neutral-700"> {bonus.title.split(' — ')[1]}</span>
                 </h3>
-                <p className="text-xs md:text-sm text-gray-700 mb-2 md:mb-3 leading-snug">{bonus.description}</p>
+                <p className="text-xs md:text-sm text-neutral-700 mb-2 leading-snug">{bonus.description}</p>
                 <div className="flex items-center space-x-3">
-                  <span className="text-xs md:text-sm line-through text-gray-500">{bonus.originalPrice}</span>
-                  <span className="bg-green-600 text-white px-2 md:px-3 py-1 rounded-full font-bold text-xs md:text-sm shadow-md">
-                    Grátis HOJE
+                  <span className="text-xs md:text-sm line-through text-neutral-500">{bonus.originalPrice}</span>
+                  <span className="bg-success-600 text-white px-3 py-1 rounded-full font-bold text-xs md:text-sm">
+                    Grátis
                   </span>
                 </div>
               </div>
             </div>
           ))}
-          <div className="text-center mt-4">
-            <p className="text-gray-800 font-bold text-lg md:text-xl px-4 py-2 bg-white rounded-lg border-2 border-red-200 shadow-sm inline-block">
+          <div className="text-center mt-6">
+            <p className="text-neutral-700 font-semibold text-base md:text-lg px-4 py-3 bg-neutral-100 rounded-lg border border-primary-600 inline-block">
               Ao garantir seu ebook hoje, você leva tudo isso SEM CUSTO EXTRA!
             </p>
           </div>
