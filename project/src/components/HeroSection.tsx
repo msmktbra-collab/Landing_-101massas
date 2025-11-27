@@ -17,7 +17,7 @@ const HeroSection: React.FC = () => {
           </h1>
 
           <p className="text-base md:text-lg text-neutral-700 mb-8 leading-relaxed max-w-2xl mx-auto px-4 font-medium">
-            Esqueça o delivery caro e a falta de criatividade. Tenha em mãos o guia definitivo para fazer refeições incríveis
+            Esqueça o delivery caro e a falta de criatividade. Tenha em mãos o guia definitivo para fazer refeições incríveis.
           </p>
 
           <div className="mb-8 px-4">
