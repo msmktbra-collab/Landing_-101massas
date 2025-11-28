@@ -28,7 +28,7 @@ const RecipesShowcase: React.FC = () => {
     {
       title: "Bucatini Cacio e Pepe",
       image: "/cacio-pepe.jpg",
-      description: "Queijo e pimenta criando um molho ultra cremoso.",
+      description: "Queijo e pimenta-do-reino criando um molho ultra cremoso.",
       time: "15 min",
       ingredients: "3 Ingred."
     },
