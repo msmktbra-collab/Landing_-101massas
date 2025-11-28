@@ -13,21 +13,21 @@ const RecipesShowcase: React.FC = () => {
   const recipes: Recipe[] = [
     {
       title: "Espaguete Aglio, Olio e Peperoncino",
-      image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Alho, azeite e pimenta perfeitos",
       time: "12 min",
       ingredients: "4 Ingred."
     },
     {
       title: "Spaghetti alla Carbonara",
-      image: "https://images.pexels.com/photos/4518844/pexels-photo-4518844.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Cremosa sem usar creme de leite",
       time: "20 min",
       ingredients: "5 Ingred."
     },
     {
       title: "Bucatini Cacio e Pepe",
-      image: "https://images.pexels.com/photos/5175539/pexels-photo-5175539.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Queijo derretido com pimenta moída",
       time: "15 min",
       ingredients: "3 Ingred."
@@ -41,7 +41,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Linguine alla Puttanesca",
-      image: "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Intenso sabor de azeitona e alcaparra",
       time: "18 min",
       ingredients: "7 Ingred."
@@ -55,21 +55,21 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Massas com Sardinha e Atum",
-      image: "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://images.pexels.com/photos/5175539/pexels-photo-5175539.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Enlatados viram banquete mediterrâneo",
       time: "15 min",
       ingredients: "6 Ingred."
     },
     {
       title: "Tagliatelle Burro e Salvia",
-      image: "https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://images.pexels.com/photos/4518844/pexels-photo-4518844.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Manteiga de sálvia dourada e aromática",
       time: "12 min",
       ingredients: "4 Ingred."
     },
     {
       title: "Trofie al Pesto Genovese",
-      image: "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600",
       description: "Manjericão fresco em molho verde",
       time: "18 min",
       ingredients: "7 Ingred."
