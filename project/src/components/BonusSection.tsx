@@ -4,8 +4,8 @@ import { Gift } from 'lucide-react';
 const BonusSection: React.FC = () => {
   const bonuses = [
     {
-      title: "BÔNUS 1 — Segredos do Cozimento Perfeito",
-      description: "Para nunca mais errar o ponto da massa e cozinhar como profissional.",
+      title: "BÔNUS 1 — Guia de Acompanhamentos para Massas",
+      description: "Sugestões simples de saladas, pães e acompanhamentos fáceis para cada tipo de massa.",
       originalPrice: "R$27",
       image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
