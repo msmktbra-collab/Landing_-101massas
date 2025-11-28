@@ -18,7 +18,7 @@ const WhyDifferentSection: React.FC = () => {
         </h2>
 
         <div className="max-w-3xl mx-auto px-2">
-          <div className="space-y-4 mb-10">
+          <div className="space-y-2 mb-10">
             {features.map((feature, index) => (
               <div
                 key={index}
