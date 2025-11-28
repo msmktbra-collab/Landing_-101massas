@@ -14,7 +14,7 @@ const HeroSection: React.FC = () => {
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-black mb-8 leading-tight px-2 animate-smooth-fade-in flex flex-col items-center">
             <span className="gradient-text whitespace-nowrap inline-block">+101 Receitas de Massas Fáceis e Práticas:</span>
-            <span className="text-dark-800 mt-4 block">Transforme Ingredientes Simples em Jantares de Chef</span>
+            <span className="gradient-text mt-4 block">Transforme Ingredientes Simples em Jantares de Chef</span>
           </h1>
 
           <p className="text-lg md:text-xl text-dark-600 mb-12 leading-relaxed max-w-2xl mx-auto px-4 font-medium">
