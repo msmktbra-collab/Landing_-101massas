@@ -13,7 +13,7 @@ const RecipesShowcase: React.FC = () => {
   const recipes: Recipe[] = [
     {
       title: "Espaguete Aglio, Olio e Peperoncino",
-      image: "https://images.pexels.com/photos/821365/pexels-photo-821365.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/aglio-olio.jpg",
       description: "Alho, azeite e pimenta perfeitos",
       time: "12 min",
       ingredients: "4 Ingred."
