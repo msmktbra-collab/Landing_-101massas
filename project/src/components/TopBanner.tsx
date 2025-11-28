@@ -10,7 +10,7 @@ const TopBanner: React.FC = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-brand-600 via-brand-500 to-brand-600 text-white py-3 shadow-lg">
+    <div className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-brand-700 via-brand-600 to-brand-700 text-white py-3 shadow-lg">
       <div className="container mx-auto px-4 text-center">
         <p className="text-sm md:text-base font-semibold tracking-wide">
           Promoção acaba hoje: <span className="font-bold underline decoration-2">{getCurrentDate()}</span>
