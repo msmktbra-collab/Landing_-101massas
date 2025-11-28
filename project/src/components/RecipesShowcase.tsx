@@ -69,7 +69,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Trofie al Pesto Genovese",
-      image: "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/pesto.png",
       description: "Manjericão fresco em molho verde",
       time: "18 min",
       ingredients: "7 Ingred."
