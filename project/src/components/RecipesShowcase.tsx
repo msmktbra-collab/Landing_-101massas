@@ -98,13 +98,13 @@ const RecipesShowcase: React.FC = () => {
   ];
 
   return (
-    <section className="section-padding bg-gradient-to-br from-dark-800 via-dark-900 to-dark-950">
+    <section className="section-padding bg-gradient-to-br from-brand-50 via-brand-100 to-brand-200">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 leading-tight px-2 text-white">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 leading-tight px-2 text-dark-800">
             Veja o que você vai aprender a fazer <span className="gradient-text-accent">(gastando pouco!)</span>
           </h2>
-          <p className="text-dark-300 text-base md:text-lg font-medium mb-2 px-2">
+          <p className="text-dark-600 text-base md:text-lg font-medium mb-2 px-2">
             Receitas que transformam ingredientes simples em pratos de restaurante.
           </p>
         </div>
