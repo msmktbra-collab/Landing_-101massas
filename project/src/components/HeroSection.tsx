@@ -34,7 +34,7 @@ const HeroSection: React.FC = () => {
           </div>
 
           <div className="mb-4 px-4">
-            <p className="text-sm text-dark-400 line-through mb-2">De R$97 por apenas</p>
+            <p className="text-sm text-brand-600 line-through mb-2">De R$97 por apenas</p>
             <p className="text-sm text-dark-500 mb-6">(Menos que um lanche na padaria!)</p>
             <p className="text-6xl md:text-7xl font-black gradient-text-accent mb-10">R$16</p>
             <button 
