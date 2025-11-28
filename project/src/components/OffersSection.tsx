@@ -33,8 +33,8 @@ const OffersSection: React.FC = () => {
           Invista menos que um lanche e transforme sua cozinha para sempre
         </p>
         
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-          <div className="card-modern p-8 relative overflow-hidden">
+        <div className="grid md:grid-cols-2 gap-4 sm:gap-6 md:gap-8 max-w-5xl mx-auto px-2 sm:px-0">
+          <div className="card-modern p-5 sm:p-6 md:p-8 relative overflow-hidden">
             <div className="text-center mb-8">
               <div className="bg-dark-100 text-dark-600 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-6 text-sm font-semibold">
                 <Zap size={16} />
@@ -63,7 +63,7 @@ const OffersSection: React.FC = () => {
               <p className="text-xs text-dark-500 mb-6">(Menos que um lanche na padaria!)</p>
               <a
                 href="#"
-                className="block w-full bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white font-bold py-4 px-6 rounded-full text-base shadow-lg hover:shadow-glow-lg transition-all duration-300 text-center whitespace-nowrap"
+                className="block w-full bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white font-bold py-3 sm:py-4 px-5 sm:px-6 rounded-full text-sm sm:text-base shadow-lg hover:shadow-glow-lg transition-all duration-300 text-center whitespace-nowrap"
               >
                 QUERO A OFERTA BÁSICA
               </a>
@@ -72,7 +72,7 @@ const OffersSection: React.FC = () => {
 
           <div className="relative">
             <div className="absolute -inset-1 bg-gradient-to-r from-brand-500 via-brand-600 to-accent-500 rounded-3xl blur opacity-30"></div>
-            <div className="relative bg-white rounded-2xl shadow-elevated p-8 border-2 border-brand-500 overflow-hidden">
+            <div className="relative bg-white rounded-2xl shadow-elevated p-5 sm:p-6 md:p-8 border-2 border-brand-500 overflow-hidden">
               <div className="absolute top-0 right-0 bg-gradient-to-r from-brand-500 to-brand-600 text-white px-4 py-1.5 text-xs font-bold rounded-bl-xl flex items-center space-x-1">
                 <Crown size={12} />
                 <span>Mais Popular</span>
@@ -99,7 +99,7 @@ const OffersSection: React.FC = () => {
                 ))}
               </div>
 
-              <div className="mb-8 p-5 bg-gradient-to-r from-brand-50 to-accent-50 rounded-xl border border-brand-100">
+              <div className="mb-6 sm:mb-8 p-4 sm:p-5 bg-gradient-to-r from-brand-50 to-accent-50 rounded-lg sm:rounded-xl border border-brand-100">
                 <div className="text-center mb-4">
                   <span className="gradient-text font-bold text-sm">BÔNUS INCLUSOS</span>
                 </div>
