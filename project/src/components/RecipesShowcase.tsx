@@ -76,7 +76,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Penne all'Arrabbiata",
-      image: "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/arrabbiata.jpg",
       description: "Molho de tomate picante e viciante",
       time: "18 min",
       ingredients: "5 Ingred."
