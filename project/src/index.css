@@ -45,7 +45,7 @@
 
   .gradient-text {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, #b91c1c 0%, #dc2626 50%, #b91c1c 100%);
+    background-image: linear-gradient(135deg, #dc2626 0%, #f87171 50%, #dc2626 100%);
     background-size: 200% auto;
     animation: gradient 3s ease infinite;
   }
