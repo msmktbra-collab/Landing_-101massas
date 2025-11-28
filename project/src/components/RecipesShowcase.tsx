@@ -27,7 +27,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Bucatini Cacio e Pepe",
-      image: "https://images.pexels.com/photos/3915857/pexels-photo-3915857.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/cacio-pepe.jpg",
       description: "Queijo derretido com pimenta moída",
       time: "15 min",
       ingredients: "3 Ingred."
