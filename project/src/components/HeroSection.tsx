@@ -41,7 +41,7 @@ const HeroSection: React.FC = () => {
               onClick={scrollToOffers}
               className="btn-gradient text-base md:text-lg px-8 md:px-12 py-4 animate-pulse-glow whitespace-nowrap"
             >
-              <span>QUERO MEU E-BOOK POR R$19</span>
+              <span>QUERO AS RECEITAS</span>
             </button>
           </div>
         </div>
