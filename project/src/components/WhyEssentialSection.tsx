@@ -47,15 +47,15 @@ const WhyEssentialSection: React.FC = () => {
             </div>
 
             <p className="mb-6 text-base md:text-lg leading-relaxed font-medium px-2 text-dark-600">
-              Muita gente acredita que para preparar um jantar especial precisa de ingredientes caros ou passar horas na cozinha, mas a culinária italiana prova o contrário: ela nasceu da simplicidade.
+              Muita gente acredita que para preparar um jantar especial precisa de ingredientes caros ou passar horas na cozinha, mas a culinária italiana prova o contrário: <span className="gradient-text">ela nasceu da simplicidade</span>.
             </p>
             
             <p className="mb-6 text-base md:text-lg leading-relaxed font-medium px-2 text-dark-600">
-              Com este e-book, você aprende a fazer muito com pouco, usando ovos, bacon, sardinha, legumes e outros ingredientes comuns para criar massas com nível de restaurante.
+              Com este e-book, você aprende a <span className="gradient-text">fazer muito com pouco</span>, usando ovos, bacon, sardinha, legumes e outros ingredientes comuns para criar <span className="gradient-text">massas com nível de restaurante</span>.
             </p>
             
             <p className="text-base md:text-lg leading-relaxed font-medium px-2 text-dark-600">
-              Você economiza, varia o cardápio da família e recebe elogios, sem depender de produtos importados ou estourar o orçamento.
+              <span className="gradient-text">Você economiza, varia o cardápio da família e recebe elogios</span>, sem depender de produtos importados ou estourar o orçamento.
             </p>
           </div>
           
