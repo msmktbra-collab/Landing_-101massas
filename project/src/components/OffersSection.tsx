@@ -38,7 +38,7 @@ const OffersSection: React.FC = () => {
             <div className="text-center mb-8">
               <div className="bg-dark-100 text-dark-600 px-4 py-2 rounded-full inline-flex items-center space-x-2 mb-6 text-sm font-semibold">
                 <Zap size={16} />
-                <span>OFERTA ESPECIAL</span>
+                <span>Oferta Básica</span>
               </div>
               <h3 className="text-2xl font-bold mb-2 text-dark-800">
                 Pacote Completo
@@ -65,7 +65,7 @@ const OffersSection: React.FC = () => {
                 href="#"
                 className="block w-full bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white font-bold py-4 px-6 rounded-full text-base shadow-lg hover:shadow-glow-lg transition-all duration-300 text-center whitespace-nowrap"
               >
-                QUERO MEU E-BOOK
+                QUERO A OFERTA BÁSICA
               </a>
             </div>
           </div>
@@ -122,7 +122,7 @@ const OffersSection: React.FC = () => {
                   href="#"
                   className="btn-gradient block w-full text-base md:text-lg animate-pulse-glow whitespace-nowrap"
                 >
-                  <span>QUERO MEU E-BOOK + BÔNUS</span>
+                  <span>QUERO A SUPER OFERTA</span>
                 </a>
               </div>
             </div>
