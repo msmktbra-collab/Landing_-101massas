@@ -34,7 +34,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Rigatoni all'Amatriciana",
-      image: "https://images.pexels.com/photos/2456435/pexels-photo-2456435.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/amatriciana.jpg",
       description: "Tomate rico com bacon crocante",
       time: "25 min",
       ingredients: "6 Ingred."
