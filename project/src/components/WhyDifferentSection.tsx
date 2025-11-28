@@ -12,13 +12,6 @@ const WhyDifferentSection: React.FC = () => {
     "Adaptado para o Brasil: substituições inteligentes de ingredientes caros"
   ];
 
-  const scrollToOffers = () => {
-    const offersSection = document.getElementById('ofertas');
-    if (offersSection) {
-      offersSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section className="section-padding bg-white">
       <div className="container mx-auto px-4">
@@ -39,18 +32,6 @@ const WhyDifferentSection: React.FC = () => {
                 <span className="text-dark-700 text-sm md:text-base font-medium leading-relaxed">{feature}</span>
               </div>
             ))}
-          </div>
-
-          <div className="text-center">
-            <button
-              onClick={scrollToOffers}
-              className="btn-gradient text-base md:text-lg px-8 md:px-12 py-4 animate-pulse-glow whitespace-nowrap"
-            >
-              <span>QUERO MEU E-BOOK AGORA</span>
-            </button>
-            <p className="text-dark-500 text-sm mt-4 font-medium">
-              Compra 100% segura e entrega imediata
-            </p>
           </div>
         </div>
       </div>
