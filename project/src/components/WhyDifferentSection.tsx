@@ -1,5 +1,5 @@
 import React from 'react';
-import { Check, Shield } from 'lucide-react';
+import { Check } from 'lucide-react';
 
 const WhyDifferentSection: React.FC = () => {
   const features = [
@@ -39,21 +39,6 @@ const WhyDifferentSection: React.FC = () => {
                 <span className="text-dark-700 text-sm md:text-base font-medium leading-relaxed">{feature}</span>
               </div>
             ))}
-          </div>
-
-          <div className="relative mb-10">
-            <div className="absolute -inset-1 bg-gradient-to-r from-accent-400 to-accent-600 rounded-2xl blur opacity-20"></div>
-            <div className="relative bg-gradient-to-r from-accent-50 to-white p-8 rounded-2xl shadow-lg border border-accent-100">
-              <div className="flex items-center justify-center space-x-3 mb-4">
-                <Shield className="text-accent-600" size={28} />
-                <h3 className="text-xl md:text-2xl font-bold text-dark-800">
-                  Garantia de Satisfação Total
-                </h3>
-              </div>
-              <p className="text-dark-600 text-center text-base md:text-lg leading-relaxed">
-                Você tem <strong className="text-accent-600">7 dias</strong> para experimentar todas as receitas. Se por qualquer motivo não ficar satisfeito, devolvemos <strong className="text-accent-600">100% do seu dinheiro</strong>. Sem perguntas, sem burocracia.
-              </p>
-            </div>
           </div>
 
           <div className="text-center">
