@@ -25,7 +25,7 @@ const WhyEssentialSection: React.FC = () => {
         </h2>
         
         <div className="max-w-4xl mx-auto px-2">
-          <div className="text-center mb-8">
+          <div className="text-center mb-4">
             <div className="relative inline-block">
               <div className="absolute -inset-2 bg-gradient-to-r from-brand-400/30 via-accent-400/30 to-brand-400/30 rounded-2xl blur-lg animate-pulse-slow"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-elevated border-4 border-white animate-float">
@@ -39,7 +39,7 @@ const WhyEssentialSection: React.FC = () => {
             </div>
           </div>
           
-          <div className="text-center mb-8 max-w-3xl mx-auto px-2">
+          <div className="text-center mb-4 max-w-3xl mx-auto px-2">
             <div className="bg-gradient-to-r from-brand-50 to-brand-100 p-6 rounded-2xl mb-6 border border-brand-200 shadow-lg">
               <p className="font-bold text-lg md:text-xl text-brand-700">
                 Você não precisa gastar uma fortuna para comer incrivelmente bem.
@@ -59,7 +59,7 @@ const WhyEssentialSection: React.FC = () => {
             </p>
           </div>
           
-          <div className="grid gap-3 max-w-2xl mx-auto mb-10 px-2">
+          <div className="grid gap-3 max-w-2xl mx-auto mb-6 px-2">
             {features.map((feature, index) => (
               <div key={index} className="card-modern flex items-center space-x-4 p-4">
                 <div className="w-6 h-6 bg-gradient-to-br from-accent-500 to-accent-600 rounded-full flex items-center justify-center flex-shrink-0 shadow-glow">
