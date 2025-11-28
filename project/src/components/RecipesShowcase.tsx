@@ -20,7 +20,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Spaghetti alla Carbonara",
-      image: "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/carbonara.jpg",
       description: "Cremosa sem usar creme de leite",
       time: "20 min",
       ingredients: "5 Ingred."
