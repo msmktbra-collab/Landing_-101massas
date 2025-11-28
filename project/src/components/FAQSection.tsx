@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, ChevronUp } from 'lucide-react';
+import { ChevronDown, ChevronUp, HelpCircle } from 'lucide-react';
 
 interface FAQItem {
   question: string;
@@ -41,35 +41,40 @@ const FAQSection: React.FC = () => {
   };
 
   return (
-    <section className="bg-white py-8 md:py-12">
+    <section className="section-padding bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-neutral-900 px-2">
-          Perguntas Frequentes
-        </h2>
+        <div className="flex items-center justify-center space-x-3 mb-10">
+          <HelpCircle className="text-brand-600" size={28} />
+          <h2 className="text-2xl md:text-3xl font-bold text-dark-800">
+            Perguntas Frequentes
+          </h2>
+        </div>
         
         <div className="max-w-2xl mx-auto px-2">
           {faqItems.map((item, index) => (
             <div 
               key={index}
-              className="bg-white rounded-lg shadow-sm mb-3 overflow-hidden border border-neutral-200 hover:shadow-md transition-shadow duration-300"
+              className="card-modern mb-4 overflow-hidden"
             >
               <button
                 onClick={() => toggleItem(index)}
-                className="w-full px-4 py-4 text-left flex items-center justify-between hover:bg-neutral-50 transition-colors duration-200"
+                className="w-full px-5 py-5 text-left flex items-center justify-between hover:bg-dark-50 transition-colors duration-200"
               >
-                <span className="font-semibold text-sm md:text-base text-neutral-900 pr-2">{item.question}</span>
-                {openItem === index ? (
-                  <ChevronUp className="text-primary-600 flex-shrink-0" size={20} />
-                ) : (
-                  <ChevronDown className="text-primary-600 flex-shrink-0" size={20} />
-                )}
+                <span className="font-semibold text-base text-dark-800 pr-4">{item.question}</span>
+                <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${openItem === index ? 'bg-brand-100' : 'bg-dark-100'}`}>
+                  {openItem === index ? (
+                    <ChevronUp className="text-brand-600" size={20} />
+                  ) : (
+                    <ChevronDown className="text-dark-500" size={20} />
+                  )}
+                </div>
               </button>
               
-              {openItem === index && (
-                <div className="px-4 pb-4">
-                  <p className="text-neutral-700 leading-relaxed text-sm md:text-base">{item.answer}</p>
+              <div className={`overflow-hidden transition-all duration-300 ${openItem === index ? 'max-h-96' : 'max-h-0'}`}>
+                <div className="px-5 pb-5">
+                  <p className="text-dark-600 leading-relaxed text-base">{item.answer}</p>
                 </div>
-              )}
+              </div>
             </div>
           ))}
         </div>

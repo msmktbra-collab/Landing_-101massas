@@ -1,4 +1,5 @@
 import React from 'react';
+import { Check } from 'lucide-react';
 
 const BenefitsSection: React.FC = () => {
   const benefits = [
@@ -10,23 +11,23 @@ const BenefitsSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-neutral-50 py-8 md:py-12">
+    <section className="section-padding bg-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 px-2 text-neutral-900">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 px-2 text-dark-800">
           Por que escolher este e-book:
         </h2>
         
         <div className="max-w-2xl mx-auto px-2">
-          <div className="space-y-3">
+          <div className="space-y-4">
             {benefits.map((benefit, index) => (
               <div 
                 key={index} 
-                className="flex items-start space-x-3 p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-neutral-200"
+                className="card-modern flex items-start space-x-4 p-5"
               >
-                <div className="w-5 h-5 bg-success-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                  <span className="text-white text-xs font-bold">✓</span>
+                <div className="w-6 h-6 bg-gradient-to-br from-accent-500 to-accent-600 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5 shadow-glow">
+                  <Check className="w-4 h-4 text-white" strokeWidth={3} />
                 </div>
-                <span className="text-neutral-700 text-sm md:text-base font-medium leading-relaxed">{benefit}</span>
+                <span className="text-dark-700 text-sm md:text-base font-medium leading-relaxed">{benefit}</span>
               </div>
             ))}
           </div>

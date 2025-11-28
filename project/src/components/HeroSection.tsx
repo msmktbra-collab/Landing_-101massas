@@ -9,35 +9,39 @@ const HeroSection: React.FC = () => {
   };
 
   return (
-    <section className="pt-12 bg-white">
-      <div className="container mx-auto px-4 py-8 md:py-16">
+    <section className="pt-16 bg-gradient-to-b from-dark-50 to-white">
+      <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight px-2 text-neutral-900 animate-smooth-fade-in">
-            +101 Receitas de Massas Fáceis e Práticas: Transforme Ingredientes Simples em Jantares de Chef
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6 leading-tight px-2 animate-smooth-fade-in">
+            <span className="gradient-text">+101 Receitas de Massas</span>
+            <span className="block text-dark-800 mt-2">Fáceis e Práticas: Transforme Ingredientes Simples em Jantares de Chef</span>
           </h1>
 
-          <p className="text-base md:text-lg text-neutral-700 mb-8 leading-relaxed max-w-2xl mx-auto px-4 font-medium">
+          <p className="text-lg md:text-xl text-dark-600 mb-10 leading-relaxed max-w-2xl mx-auto px-4 font-medium">
             Esqueça o delivery caro e a falta de criatividade. Tenha em mãos o guia definitivo para fazer refeições incríveis.
           </p>
 
-          <div className="mb-8 px-4">
-            <img
-              src="/Testo del paragrafo-2 copy.jpg"
-              alt="101 Receitas de Massas Fáceis e Práticas"
-              className="mx-auto w-full max-w-2xl sm:max-w-3xl md:max-w-4xl h-auto rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
-              loading="lazy"
-            />
+          <div className="mb-10 px-4">
+            <div className="relative inline-block">
+              <div className="absolute -inset-4 bg-gradient-to-r from-accent-400/20 via-accent-500/20 to-accent-400/20 rounded-3xl blur-xl"></div>
+              <img
+                src="/Testo del paragrafo-2 copy.jpg"
+                alt="101 Receitas de Massas Fáceis e Práticas"
+                className="relative mx-auto w-full max-w-2xl sm:max-w-3xl md:max-w-4xl h-auto rounded-2xl shadow-elevated transition-all duration-500 hover:shadow-3xl"
+                loading="lazy"
+              />
+            </div>
           </div>
 
           <div className="mb-8 px-4">
-            <p className="text-sm text-neutral-500 line-through mb-2">De R$127 por apenas</p>
-            <p className="text-sm text-neutral-600 mb-3">(Menos que um lanche na padaria!)</p>
-            <p className="text-5xl md:text-6xl font-black text-success-600 mb-6 animate-pulse">R$19</p>
+            <p className="text-sm text-dark-400 line-through mb-1">De R$127 por apenas</p>
+            <p className="text-sm text-dark-500 mb-4">(Menos que um lanche na padaria!)</p>
+            <p className="text-6xl md:text-7xl font-black gradient-text-accent mb-8">R$19</p>
             <button 
               onClick={scrollToOffers}
-              className="bg-success-600 hover:bg-success-700 text-white font-bold py-4 px-4 md:px-6 rounded-full text-sm md:text-base shadow-md hover:shadow-lg transition-all duration-200 whitespace-nowrap"
+              className="btn-gradient text-base md:text-lg px-8 md:px-12 py-4 animate-pulse-glow whitespace-nowrap"
             >
-              QUERO MEU E-BOOK POR R$19
+              <span>QUERO MEU E-BOOK POR R$19</span>
             </button>
           </div>
         </div>

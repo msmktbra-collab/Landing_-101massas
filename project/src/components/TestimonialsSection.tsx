@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, MessageCircle, Share, MoreHorizontal } from 'lucide-react';
+import { Heart, MessageCircle, BadgeCheck } from 'lucide-react';
 
 interface Testimonial {
   name: string;
@@ -38,58 +38,53 @@ const TestimonialsSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-neutral-50 py-8 md:py-12">
+    <section className="section-padding bg-gradient-to-b from-dark-50 to-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 text-neutral-900 px-2">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-10 text-dark-800 px-2">
           Veja o que nossos clientes estão falando:
         </h2>
 
-        <div className="max-w-md mx-auto space-y-4 px-2">
+        <div className="max-w-md mx-auto space-y-5 px-2">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className="bg-white border border-neutral-200 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300"
+              className="card-modern overflow-hidden"
             >
-              {/* Header do post */}
-              <div className="flex items-center justify-between p-4">
+              <div className="flex items-center justify-between p-5 border-b border-dark-100">
                 <div className="flex items-center space-x-3">
                   <div className="relative">
                     <img
                       src={testimonial.avatar}
                       alt={testimonial.name}
-                      className="w-10 h-10 rounded-full object-cover"
+                      className="w-12 h-12 rounded-full object-cover ring-2 ring-dark-100"
                       loading="lazy"
                     />
-                    <div className="absolute -bottom-0.5 -right-0.5 w-3 h-3 bg-success-500 border-2 border-white rounded-full"></div>
+                    <div className="absolute -bottom-0.5 -right-0.5 w-4 h-4 bg-gradient-to-r from-accent-500 to-accent-600 border-2 border-white rounded-full"></div>
                   </div>
                   <div>
-                    <div className="flex items-center space-x-1">
-                      <span className="font-semibold text-sm text-neutral-900">{testimonial.name}</span>
+                    <div className="flex items-center space-x-1.5">
+                      <span className="font-semibold text-sm text-dark-800">{testimonial.name}</span>
                       {testimonial.verified && (
-                        <div className="w-4 h-4 bg-blue-500 rounded-full flex items-center justify-center">
-                          <span className="text-white text-xs">✓</span>
-                        </div>
+                        <BadgeCheck className="w-4 h-4 text-blue-500" />
                       )}
                     </div>
                   </div>
                 </div>
-                <span className="text-xs text-neutral-500">{testimonial.time}</span>
+                <span className="text-xs text-dark-400 font-medium">{testimonial.time}</span>
               </div>
 
-              {/* Conteúdo do post */}
-              <div className="px-4 pb-3">
-                <p className="text-sm text-neutral-800 leading-relaxed">{testimonial.content}</p>
+              <div className="p-5">
+                <p className="text-sm text-dark-700 leading-relaxed">{testimonial.content}</p>
               </div>
 
-              {/* Ações do post */}
-              <div className="flex items-center space-x-4 px-4 py-3 border-t border-neutral-100">
-                <button className="flex items-center space-x-1 text-neutral-600 hover:text-primary-600 transition-colors">
-                  <Heart size={16} />
-                  <span className="text-xs font-medium">{testimonial.likes}</span>
+              <div className="flex items-center space-x-6 px-5 py-4 border-t border-dark-100 bg-dark-50/50">
+                <button className="flex items-center space-x-2 text-dark-500 hover:text-brand-600 transition-colors">
+                  <Heart size={18} />
+                  <span className="text-sm font-medium">{testimonial.likes}</span>
                 </button>
-                <button className="flex items-center space-x-1 text-neutral-600 hover:text-primary-600 transition-colors">
-                  <MessageCircle size={16} />
-                  <span className="text-xs">Comentar</span>
+                <button className="flex items-center space-x-2 text-dark-500 hover:text-brand-600 transition-colors">
+                  <MessageCircle size={18} />
+                  <span className="text-sm font-medium">Comentar</span>
                 </button>
               </div>
             </div>

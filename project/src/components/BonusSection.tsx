@@ -4,19 +4,19 @@ import { Gift } from 'lucide-react';
 const BonusSection: React.FC = () => {
   const bonuses = [
     {
-      title: "BONÚS 1 — Segredos do Cozimento Perfeito",
+      title: "BÔNUS 1 — Segredos do Cozimento Perfeito",
       description: "Para nunca mais errar o ponto da massa e cozinhar como profissional.",
       originalPrice: "R$27",
       image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
-      title: "BONÚS 2 — Guia de Molhos Coringas",
+      title: "BÔNUS 2 — Guia de Molhos Coringas",
       description: "Bases que servem para criar dezenas de pratos novos com ingredientes simples.",
       originalPrice: "R$37",
       image: "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
-      title: "BONÚS 3 — Dicas de Substituição Inteligente",
+      title: "BÔNUS 3 — Dicas de Substituição Inteligente",
       description: "O manual para trocar ingredientes caros por baratos sem ninguém notar.",
       originalPrice: "R$29",
       image: "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=300"
@@ -24,46 +24,51 @@ const BonusSection: React.FC = () => {
   ];
 
   return (
-    <section className="bg-neutral-50 py-8 md:py-12">
+    <section className="section-padding bg-gradient-to-b from-dark-50 to-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-xl md:text-2xl font-bold text-center mb-8 text-neutral-900 px-2">
-          <span className="inline-flex items-center space-x-2">
-            <Gift className="text-primary-600" size={24} />
-            <span>Bônus Inclusos (Sem Custo Extra):</span>
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-10 text-dark-800 px-2">
+          <span className="inline-flex items-center space-x-3">
+            <Gift className="text-brand-600" size={28} />
+            <span>Bônus Inclusos <span className="gradient-text">(Sem Custo Extra)</span>:</span>
           </span>
         </h2>
 
-        <div className="max-w-3xl mx-auto space-y-4 px-2">
+        <div className="max-w-3xl mx-auto space-y-5 px-2">
           {bonuses.map((bonus, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg p-4 md:p-5 shadow-md hover:shadow-lg transition-shadow duration-300 flex items-center space-x-4 border border-neutral-200"
+              className="card-modern flex items-center space-x-5 p-5 md:p-6"
             >
-              <img
-                src={bonus.image}
-                alt={bonus.title}
-                className="w-20 h-20 md:w-28 md:h-28 rounded-lg object-cover flex-shrink-0 shadow-sm"
-                loading="lazy"
-              />
+              <div className="relative">
+                <div className="absolute -inset-1 bg-gradient-to-r from-brand-400 to-accent-400 rounded-xl blur opacity-30"></div>
+                <img
+                  src={bonus.image}
+                  alt={bonus.title}
+                  className="relative w-24 h-24 md:w-32 md:h-32 rounded-xl object-cover flex-shrink-0 shadow-lg"
+                  loading="lazy"
+                />
+              </div>
               <div className="flex-1">
-                <h3 className="text-sm md:text-base font-bold mb-1 text-neutral-900 leading-tight">
-                  <span className="text-primary-600">{bonus.title.split(' — ')[0]}</span>
-                  <span className="text-neutral-700"> {bonus.title.split(' — ')[1]}</span>
+                <h3 className="text-sm md:text-base font-bold mb-2 leading-tight">
+                  <span className="gradient-text">{bonus.title.split(' — ')[0]}</span>
+                  <span className="text-dark-700"> — {bonus.title.split(' — ')[1]}</span>
                 </h3>
-                <p className="text-xs md:text-sm text-neutral-700 mb-2 leading-snug">{bonus.description}</p>
+                <p className="text-xs md:text-sm text-dark-600 mb-3 leading-relaxed">{bonus.description}</p>
                 <div className="flex items-center space-x-3">
-                  <span className="text-xs md:text-sm line-through text-neutral-500">{bonus.originalPrice}</span>
-                  <span className="bg-success-600 text-white px-3 py-1 rounded-full font-bold text-xs md:text-sm">
+                  <span className="text-sm line-through text-dark-400">{bonus.originalPrice}</span>
+                  <span className="bg-gradient-to-r from-accent-500 to-accent-600 text-white px-4 py-1.5 rounded-full font-bold text-xs shadow-glow">
                     Grátis
                   </span>
                 </div>
               </div>
             </div>
           ))}
-          <div className="text-center mt-6">
-            <p className="text-neutral-700 font-semibold text-base md:text-lg px-4 py-3 bg-neutral-100 rounded-lg border border-primary-600 inline-block">
-              Ao garantir seu ebook hoje, você leva tudo isso SEM CUSTO EXTRA!
-            </p>
+          <div className="text-center mt-8">
+            <div className="inline-block px-6 py-4 bg-gradient-to-r from-brand-50 to-accent-50 rounded-2xl border-2 border-brand-200 shadow-lg">
+              <p className="text-dark-700 font-bold text-base md:text-lg">
+                Ao garantir seu ebook hoje, você leva tudo isso <span className="gradient-text">SEM CUSTO EXTRA!</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
