@@ -14,70 +14,70 @@ const RecipesShowcase: React.FC = () => {
     {
       title: "Espaguete Aglio, Olio e Peperoncino",
       image: "/aglio-olio.jpg",
-      description: "Alho, azeite e pimenta perfeitos",
+      description: "Alho, azeite e pimenta no ponto.",
       time: "12 min",
       ingredients: "4 Ingred."
     },
     {
       title: "Spaghetti alla Carbonara",
       image: "/carbonara.jpg",
-      description: "Cremosa sem usar creme de leite",
+      description: "Creme de ovos e queijo, sem nada de creme de leite.",
       time: "20 min",
       ingredients: "5 Ingred."
     },
     {
       title: "Bucatini Cacio e Pepe",
       image: "/cacio-pepe.jpg",
-      description: "Queijo derretido com pimenta moída",
+      description: "Queijo e pimenta criando um molho ultra cremoso.",
       time: "15 min",
       ingredients: "3 Ingred."
     },
     {
       title: "Rigatoni all'Amatriciana",
       image: "/amatriciana.jpg",
-      description: "Tomate rico com bacon crocante",
+      description: "Molho de tomate encorpado com porco crocante.",
       time: "25 min",
       ingredients: "6 Ingred."
     },
     {
       title: "Linguine alla Puttanesca",
       image: "/puttanesca.jpg",
-      description: "Intenso sabor de azeitona e alcaparra",
+      description: "Tomate ácido com azeitona e alcaparra marcantes.",
       time: "18 min",
       ingredients: "7 Ingred."
     },
     {
       title: "Fettuccine Alfredo",
       image: "/alfredo.jpg",
-      description: "Manteiga e queijo derretendo na boca",
+      description: "Manteiga e queijo em molho rico e sedoso.",
       time: "14 min",
       ingredients: "4 Ingred."
     },
     {
       title: "Massas com Sardinha e Atum",
       image: "/tonno.jpg",
-      description: "Enlatados viram banquete mediterrâneo",
+      description: "Enlatados viram prato rápido de sabor marinho.",
       time: "15 min",
       ingredients: "6 Ingred."
     },
     {
       title: "Trofie al Pesto Genovese",
       image: "/pesto.png",
-      description: "Manjericão fresco em molho verde",
+      description: "Manjericão e queijo em pesto aromático e intenso.",
       time: "18 min",
       ingredients: "7 Ingred."
     },
     {
       title: "Penne all'Arrabbiata",
       image: "/arrabbiata.jpg",
-      description: "Molho de tomate picante e viciante",
+      description: "Tomate picante e alho em molho vibrante.",
       time: "18 min",
       ingredients: "5 Ingred."
     },
     {
       title: "Molhos de Tomate Caseiros",
       image: "/molho-tomate.jpg",
-      description: "Mais baratos e saudáveis que saquinhos",
+      description: "Mais saborosos e leves do que os prontos industrializados.",
       time: "25 min",
       ingredients: "6 Ingred."
     }
