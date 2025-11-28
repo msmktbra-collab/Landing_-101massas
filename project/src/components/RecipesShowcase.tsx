@@ -35,7 +35,7 @@ const RecipesShowcase: React.FC = () => {
     {
       title: "Rigatoni all'Amatriciana",
       image: "/amatriciana.jpg",
-      description: "Molho de tomate encorpado com porco crocante.",
+      description: "Molho de tomate encorpado com bacon crocante.",
       time: "25 min",
       ingredients: "6 Ingred."
     },
