@@ -3,13 +3,11 @@ import { Check } from 'lucide-react';
 
 const WhyDifferentSection: React.FC = () => {
   const features = [
-    "Mais de 101 receitas autênticas direto das regiões da Itália",
-    "Tabela de preços em cada receita para você controlar seu orçamento",
-    "Tempo médio de preparo: 10 a 25 minutos — perfeito para a rotina",
-    "Ingredientes acessíveis que você encontra em qualquer mercado",
-    "Formato prático: acesse online ou imprima",
-    "Dicas profissionais para massa al dente, molhos cremosos e emulsões perfeitas",
-    "Adaptado para o Brasil: substituições inteligentes de ingredientes caros"
+    "+101 receitas de massas italianas, dos clássicos às versões criativas",
+    "Passo a passo simples para resultado de restaurante em casa",
+    "Conteúdo organizado e visual, pronto para usar em qualquer tela ou impresso",
+    "Pratos para o dia a dia e para ocasiões especiais",
+    "Linguagem direta e prática, sem complicação"
   ];
 
   return (
