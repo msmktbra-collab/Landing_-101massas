@@ -19,7 +19,7 @@ const BonusSection: React.FC = () => {
       title: "BÔNUS 3 — Sobremesas Italianas Express",
       description: "Para quem não abre mão do docinho final, mas quer zero esforço na cozinha.",
       originalPrice: "R$29",
-      image: "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=300"
+      image: "/sobremesas.jpg"
     }
   ];
 
