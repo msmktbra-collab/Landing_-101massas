@@ -58,8 +58,8 @@ const OffersSection: React.FC = () => {
             </div>
 
             <div className="text-center">
-              <div className="text-sm text-dark-400 line-through mb-1">De R$127 por apenas</div>
-              <div className="text-5xl font-black gradient-text-accent mb-2">R$19</div>
+              <div className="text-sm text-dark-400 line-through mb-1">De R$97 por apenas</div>
+              <div className="text-5xl font-black gradient-text-accent mb-2">R$16</div>
               <p className="text-xs text-dark-500 mb-6">(Menos que um lanche na padaria!)</p>
               <a
                 href="#"
@@ -116,8 +116,8 @@ const OffersSection: React.FC = () => {
               </div>
 
               <div className="text-center">
-                <div className="text-sm text-dark-400 line-through mb-1">De R$127 por apenas</div>
-                <div className="text-6xl font-black gradient-text-accent mb-4">R$19</div>
+                <div className="text-sm text-dark-400 line-through mb-1">De R$97 por apenas</div>
+                <div className="text-6xl font-black gradient-text-accent mb-4">R$16</div>
                 <a
                   href="#"
                   className="btn-gradient block w-full text-base md:text-lg animate-pulse-glow whitespace-nowrap"
