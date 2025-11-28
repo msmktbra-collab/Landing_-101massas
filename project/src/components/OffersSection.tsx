@@ -18,9 +18,9 @@ const OffersSection: React.FC = () => {
   ];
 
   const premiumBonuses = [
-    "Segredos do Cozimento Perfeito",
+    "Guia de Acompanhamentos para Massas",
     "Guia de Molhos Coringas",
-    "Dicas de Substituição Inteligente"
+    "Sobremesas Italianas Express"
   ];
 
   return (
