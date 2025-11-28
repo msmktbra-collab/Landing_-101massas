@@ -1,22 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Check } from 'lucide-react';
 
 const WhyEssentialSection: React.FC = () => {
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  
-  const images = [
-    "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=600"
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, [images.length]);
 
   const scrollToOffers = () => {
     const offersSection = document.getElementById('ofertas');
@@ -44,17 +29,12 @@ const WhyEssentialSection: React.FC = () => {
             <div className="relative inline-block">
               <div className="absolute -inset-2 bg-gradient-to-r from-brand-400/30 via-accent-400/30 to-brand-400/30 rounded-2xl blur-lg animate-pulse-slow"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-elevated border-4 border-white animate-float">
-                {images.map((image, index) => (
-                  <img 
-                    key={index}
-                    src={image}
-                    alt={`Jantar italiano ${index + 1}`}
-                    className={`w-full max-w-xs md:max-w-sm h-auto transition-opacity duration-500 ${
-                      index === currentImageIndex ? 'opacity-100' : 'opacity-0 absolute top-0 left-0'
-                    }`}
-                    loading="lazy"
-                  />
-                ))}
+                <img 
+                  src="/Ebook_Mockup1.jpg"
+                  alt="Ebook Mockup 101 Receitas de Massas"
+                  className="w-full max-w-xs md:max-w-sm h-auto"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
