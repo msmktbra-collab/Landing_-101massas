@@ -102,7 +102,7 @@ const RecipesShowcase: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 leading-tight px-2 text-dark-800">
-            Veja o que você vai aprender a fazer <span className="gradient-text">(gastando pouco!)</span>
+            Veja o que você vai aprender a fazer <span className="gradient-text-accent">(gastando pouco!)</span>
           </h2>
           <p className="text-dark-600 text-base md:text-lg font-medium mb-2 px-2">
             Receitas que transformam ingredientes simples em pratos de restaurante.

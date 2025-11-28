@@ -20,7 +20,7 @@ const WhyEssentialSection: React.FC = () => {
   return (
     <section className="section-padding bg-gradient-to-b from-white to-dark-50">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-8 leading-tight px-2">
+        <h2 className="text-xl md:text-2xl font-bold text-center mb-8 leading-tight px-2">
           <span className="gradient-text">O que torna esse e-book indispensável na sua cozinha?</span>
         </h2>
         
