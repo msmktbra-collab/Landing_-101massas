@@ -61,13 +61,6 @@ const RecipesShowcase: React.FC = () => {
       ingredients: "6 Ingred."
     },
     {
-      title: "Tagliatelle Burro e Salvia",
-      image: "https://images.pexels.com/photos/4518844/pexels-photo-4518844.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Manteiga de sálvia dourada e aromática",
-      time: "12 min",
-      ingredients: "4 Ingred."
-    },
-    {
       title: "Trofie al Pesto Genovese",
       image: "/pesto.png",
       description: "Manjericão fresco em molho verde",
@@ -80,13 +73,6 @@ const RecipesShowcase: React.FC = () => {
       description: "Molho de tomate picante e viciante",
       time: "18 min",
       ingredients: "5 Ingred."
-    },
-    {
-      title: "Massas One-Pot",
-      image: "https://images.pexels.com/photos/1624487/pexels-photo-1624487.jpeg?auto=compress&cs=tinysrgb&w=600",
-      description: "Cozinha massa e molho na mesma panela",
-      time: "20 min",
-      ingredients: "8 Ingred."
     },
     {
       title: "Molhos de Tomate Caseiros",
