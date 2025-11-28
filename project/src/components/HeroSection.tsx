@@ -12,8 +12,9 @@ const HeroSection: React.FC = () => {
     <section className="pt-16 sm:pt-20 bg-gradient-to-b from-dark-50 to-white">
       <div className="container mx-auto px-3 sm:px-4 py-6 sm:py-8 md:py-12">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black mb-6 sm:mb-8 leading-tight px-2 animate-smooth-fade-in flex flex-col items-center">
-            <span className="gradient-text inline-block text-xl sm:text-2xl md:text-3xl lg:text-4xl">+101 Receitas de Massas Fáceis e Práticas</span>
+          <h1 className="font-black mb-6 sm:mb-8 leading-tight px-2 animate-smooth-fade-in flex flex-col items-center">
+            <span className="gradient-text inline-block text-sm sm:text-base md:text-lg lg:text-xl mb-3 sm:mb-4">+101 Receitas de Massas Fáceis e Práticas</span>
+            <span className="gradient-text block text-3xl sm:text-4xl md:text-5xl lg:text-6xl">Transforme Ingredientes Simples em Jantares de Chef</span>
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl text-dark-600 mb-8 sm:mb-12 leading-relaxed max-w-2xl mx-auto px-3 sm:px-4 font-medium">
