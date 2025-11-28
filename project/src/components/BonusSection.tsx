@@ -7,7 +7,7 @@ const BonusSection: React.FC = () => {
       title: "BÔNUS 1 — Guia de Acompanhamentos para Massas",
       description: "Sugestões simples de saladas, pães e acompanhamentos fáceis para cada tipo de massa.",
       originalPrice: "R$27",
-      image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=300"
+      image: "/acompanhamentos.jpg"
     },
     {
       title: "BÔNUS 2 — Guia de Molhos Coringas",
