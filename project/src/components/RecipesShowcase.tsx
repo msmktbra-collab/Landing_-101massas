@@ -41,14 +41,14 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Linguine alla Puttanesca",
-      image: "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/puttanesca.jpg",
       description: "Intenso sabor de azeitona e alcaparra",
       time: "18 min",
       ingredients: "7 Ingred."
     },
     {
       title: "Fettuccine Alfredo",
-      image: "https://images.pexels.com/photos/1460872/pexels-photo-1460872.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/alfredo.jpg",
       description: "Manteiga e queijo derretendo na boca",
       time: "14 min",
       ingredients: "4 Ingred."
