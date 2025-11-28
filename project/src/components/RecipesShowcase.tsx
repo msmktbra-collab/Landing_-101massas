@@ -55,7 +55,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Massas com Sardinha e Atum",
-      image: "https://images.pexels.com/photos/5175539/pexels-photo-5175539.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/tonno.jpg",
       description: "Enlatados viram banquete mediterrâneo",
       time: "15 min",
       ingredients: "6 Ingred."
