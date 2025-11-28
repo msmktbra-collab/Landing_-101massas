@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
       <div className="container mx-auto px-4 py-12 md:py-20">
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-black mb-6 leading-tight px-2 animate-smooth-fade-in">
-            <span className="gradient-text">+101 Receitas de Massas<br/>Fáceis e Práticas:</span>
+            <span className="gradient-text whitespace-nowrap">+101 Receitas de Massas Fáceis e Práticas:</span>
             <span className="block text-dark-800 mt-2">Transforme Ingredientes Simples em Jantares de Chef</span>
           </h1>
 
