@@ -67,15 +67,15 @@ const WhyEssentialSection: React.FC = () => {
             </div>
 
             <p className="mb-6 text-base md:text-lg leading-relaxed font-medium px-2 text-dark-600">
-              <strong>Muitas vezes, a gente acha que para fazer um jantar especial precisa de ingredientes caros ou horas na cozinha. A verdade? A melhor culinária do mundo — a italiana — nasceu da simplicidade.</strong>
+              Muita gente acredita que para preparar um jantar especial precisa de ingredientes caros ou passar horas na cozinha, mas a culinária italiana prova o contrário: ela nasceu da simplicidade.
             </p>
             
             <p className="mb-6 text-base md:text-lg leading-relaxed font-medium px-2 text-dark-600">
-              Com este e-book, você vai dominar a arte de fazer muito com pouco. Nós ensinamos os truques para pegar ingredientes comuns do supermercado brasileiro — como ovos, bacon, sardinha ou legumes da estação — e transformá-los em massas de restaurante.
+              Com este e-book, você aprende a fazer muito com pouco, usando ovos, bacon, sardinha, legumes e outros ingredientes comuns para criar massas com nível de restaurante.
             </p>
             
             <p className="text-base md:text-lg leading-relaxed font-medium px-2 text-dark-600">
-              Você vai economizar, variar o cardápio da família e receber elogios, tudo isso sem precisar caçar itens importados ou estourar o orçamento. É comida de verdade, feita de forma inteligente.
+              Você economiza, varia o cardápio da família e recebe elogios, sem depender de produtos importados ou estourar o orçamento.
             </p>
           </div>
           
