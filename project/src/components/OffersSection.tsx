@@ -26,7 +26,7 @@ const OffersSection: React.FC = () => {
   return (
     <section id="ofertas" className="section-padding bg-gradient-to-b from-white via-dark-50 to-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-dark-800">
+        <h2 className="text-2xl md:text-3xl font-bold text-center mb-4 text-dark-700">
           Escolha seu pacote
         </h2>
         <p className="text-center text-dark-500 mb-12 max-w-xl mx-auto">
@@ -40,7 +40,7 @@ const OffersSection: React.FC = () => {
                 <Zap size={16} />
                 <span>Oferta Básica</span>
               </div>
-              <h3 className="text-2xl font-bold mb-2 text-dark-800">
+              <h3 className="text-2xl font-bold mb-2 text-dark-700">
                 Pacote Completo
               </h3>
               <p className="text-sm text-dark-500">Tudo que você precisa</p>
@@ -82,7 +82,7 @@ const OffersSection: React.FC = () => {
                 <div className="bg-gradient-to-r from-brand-500 to-brand-600 text-white px-5 py-2 rounded-full inline-block mb-6 text-sm font-bold tracking-wide shadow-glow-brand">
                   SUPER OFERTA
                 </div>
-                <h3 className="text-2xl font-bold mb-2 text-dark-800">
+                <h3 className="text-2xl font-bold mb-2 text-dark-700">
                   Pacote Completo + Bônus
                 </h3>
                 <p className="text-sm text-dark-500">O melhor valor com tudo incluído</p>

@@ -45,7 +45,7 @@ const FAQSection: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-center space-x-3 mb-10">
           <HelpCircle className="text-brand-600" size={28} />
-          <h2 className="text-2xl md:text-3xl font-bold text-dark-800">
+          <h2 className="text-2xl md:text-3xl font-bold text-dark-700">
             Perguntas Frequentes
           </h2>
         </div>
@@ -60,7 +60,7 @@ const FAQSection: React.FC = () => {
                 onClick={() => toggleItem(index)}
                 className="w-full px-5 py-5 text-left flex items-center justify-between hover:bg-dark-50 transition-colors duration-200"
               >
-                <span className="font-semibold text-base text-dark-800 pr-4">{item.question}</span>
+                <span className="font-semibold text-base text-dark-700 pr-4">{item.question}</span>
                 <div className={`w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${openItem === index ? 'bg-brand-100' : 'bg-dark-100'}`}>
                   {openItem === index ? (
                     <ChevronUp className="text-brand-600" size={20} />

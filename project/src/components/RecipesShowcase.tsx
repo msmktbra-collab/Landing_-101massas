@@ -101,7 +101,7 @@ const RecipesShowcase: React.FC = () => {
     <section className="section-padding bg-gradient-to-br from-brand-50 via-brand-100 to-brand-200">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4 leading-tight px-2 text-dark-800">
+          <h2 className="text-2xl md:text-3xl font-bold mb-4 leading-tight px-2 text-dark-700">
             Veja o que você vai aprender a fazer <span className="gradient-text">(gastando pouco!)</span>
           </h2>
           <p className="text-dark-600 text-base md:text-lg font-medium mb-2 px-2">
@@ -125,7 +125,7 @@ const RecipesShowcase: React.FC = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-dark-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <div className="p-5">
-                <h3 className="font-bold text-lg mb-2 leading-tight text-dark-800 text-center group-hover:text-brand-600 transition-colors">{recipe.title}</h3>
+                <h3 className="font-bold text-lg mb-2 leading-tight text-dark-700 text-center group-hover:text-brand-600 transition-colors">{recipe.title}</h3>
                 <p className="text-dark-500 text-sm leading-relaxed mb-4 text-center">{recipe.description}</p>
 
                 <div className="flex justify-center space-x-3">
