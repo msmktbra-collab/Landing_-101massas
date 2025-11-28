@@ -13,7 +13,7 @@ const BonusSection: React.FC = () => {
       title: "BÔNUS 2 — Guia de Molhos Coringas",
       description: "Bases que servem para criar dezenas de pratos novos com ingredientes simples.",
       originalPrice: "R$37",
-      image: "https://images.pexels.com/photos/1640773/pexels-photo-1640773.jpeg?auto=compress&cs=tinysrgb&w=300"
+      image: "/molhos-coringas.jpg"
     },
     {
       title: "BÔNUS 3 — Sobremesas Italianas Express",
