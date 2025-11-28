@@ -90,7 +90,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Molhos de Tomate Caseiros",
-      image: "https://images.pexels.com/photos/4253312/pexels-photo-4253312.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "/molho-tomate.jpg",
       description: "Mais baratos e saudáveis que saquinhos",
       time: "25 min",
       ingredients: "6 Ingred."
