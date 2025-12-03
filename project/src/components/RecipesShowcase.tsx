@@ -13,49 +13,49 @@ const RecipesShowcase: React.FC = () => {
   const recipes: Recipe[] = [
     {
       title: "Espaguete Aglio, Olio e Peperoncino",
-      image: "/aglio-olio.jpg",
+      image: "https://i.imgur.com/trd5n5H.jpeg",
       description: "Alho, azeite e pimenta no ponto.",
       time: "12 min",
       ingredients: "4 Ingred."
     },
     {
       title: "Spaghetti alla Carbonara",
-      image: "/carbonara.jpg",
+      image: "https://i.imgur.com/uc1okZ7.jpeg",
       description: "Creme de ovos e queijo, sem nada de creme de leite.",
       time: "20 min",
       ingredients: "5 Ingred."
     },
     {
       title: "Bucatini Cacio e Pepe",
-      image: "/cacio-pepe.jpg",
+      image: "https://i.imgur.com/Z4NO9aA.jpeg",
       description: "Queijo e pimenta-do-reino criando um molho ultra cremoso.",
       time: "15 min",
       ingredients: "3 Ingred."
     },
     {
       title: "Rigatoni all'Amatriciana",
-      image: "/amatriciana.jpg",
+      image: "https://i.imgur.com/vBbrplb.jpeg",
       description: "Molho de tomate encorpado com bacon crocante.",
       time: "25 min",
       ingredients: "6 Ingred."
     },
     {
       title: "Linguine alla Puttanesca",
-      image: "/puttanesca.jpg",
+      image: "https://i.imgur.com/4NPwoLN.jpeg",
       description: "Tomate ácido com azeitona e alcaparra marcantes.",
       time: "18 min",
       ingredients: "7 Ingred."
     },
     {
       title: "Fettuccine Alfredo",
-      image: "/alfredo.jpg",
+      image: "https://i.imgur.com/g4EKDCu.jpeg",
       description: "Manteiga e queijo em molho rico e sedoso.",
       time: "14 min",
       ingredients: "4 Ingred."
     },
     {
       title: "Massas com Sardinha e Atum",
-      image: "/tonno.jpg",
+      image: "https://i.imgur.com/YLTCADs.jpeg",
       description: "Enlatados viram prato rápido de sabor marinho.",
       time: "15 min",
       ingredients: "6 Ingred."
@@ -69,14 +69,14 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Penne all'Arrabbiata",
-      image: "/arrabbiata.jpg",
+      image: "https://i.imgur.com/MZKI85J.jpeg",
       description: "Tomate picante e alho em molho vibrante.",
       time: "18 min",
       ingredients: "5 Ingred."
     },
     {
       title: "Molhos de Tomate Caseiros",
-      image: "/molho-tomate.jpg",
+      image: "https://i.imgur.com/t5y90zt.jpeg",
       description: "Mais saborosos e leves do que os prontos industrializados.",
       time: "25 min",
       ingredients: "6 Ingred."
