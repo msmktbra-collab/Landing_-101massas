@@ -27,8 +27,8 @@ const BonusSection: React.FC = () => {
     <section className="section-padding bg-gradient-to-b from-dark-50 to-white">
       <div className="container mx-auto px-4">
         <h2 className="text-xl md:text-2xl font-bold text-center mb-10 text-dark-700 px-2">
-          <span className="inline-flex items-center space-x-3">
-            <Gift className="text-brand-600" size={28} />
+          <span className="inline-flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-3 justify-center">
+            <Gift className="text-brand-600 mx-auto md:mx-0" size={28} />
             <span>Bônus Inclusos <span className="gradient-text">(Sem Custo Extra)</span>:</span>
           </span>
         </h2>
