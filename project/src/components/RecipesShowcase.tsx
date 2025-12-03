@@ -62,7 +62,7 @@ const RecipesShowcase: React.FC = () => {
     },
     {
       title: "Trofie al Pesto Genovese",
-      image: "/pesto.png",
+      image: "https://i.imgur.com/OqYqBNF.png",
       description: "Manjericão e queijo em pesto aromático e intenso.",
       time: "18 min",
       ingredients: "7 Ingred."
