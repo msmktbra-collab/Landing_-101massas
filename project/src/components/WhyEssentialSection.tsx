@@ -30,7 +30,7 @@ const WhyEssentialSection: React.FC = () => {
               <div className="absolute -inset-2 bg-gradient-to-r from-brand-400/30 via-accent-400/30 to-brand-400/30 rounded-2xl blur-lg animate-pulse-slow"></div>
               <div className="relative rounded-2xl overflow-hidden shadow-elevated border-4 border-white animate-float">
                 <img 
-                  src="/Ebook_Mockup1.jpg"
+                  src="https://i.imgur.com/9eLiTSV.jpeg"
                   alt="Ebook Mockup 101 Receitas de Massas"
                   className="w-full max-w-xs md:max-w-sm h-auto"
                   loading="lazy"
