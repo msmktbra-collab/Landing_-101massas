@@ -7,19 +7,19 @@ const BonusSection: React.FC = () => {
       title: "BÔNUS 1 — Guia de Acompanhamentos para Massas",
       description: "Sugestões simples de saladas, pães e acompanhamentos fáceis para cada tipo de massa.",
       originalPrice: "R$27",
-      image: "/acompanhamentos.jpg"
+      image: "https://i.imgur.com/Alhg9gK.jpeg"
     },
     {
       title: "BÔNUS 2 — Guia de Molhos Coringas",
       description: "Bases que servem para criar dezenas de pratos novos com ingredientes simples.",
       originalPrice: "R$37",
-      image: "/molhos-coringas.jpg"
+      image: "https://i.imgur.com/jCjeBiY.jpeg"
     },
     {
       title: "BÔNUS 3 — Sobremesas Italianas Express",
       description: "Para quem não abre mão do docinho final, mas quer zero esforço na cozinha.",
       originalPrice: "R$29",
-      image: "/sobremesas.jpg"
+      image: "https://i.imgur.com/hM1YhBQ.jpeg"
     }
   ];
 
