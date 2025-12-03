@@ -25,7 +25,7 @@ const HeroSection: React.FC = () => {
             <div className="relative inline-block">
               <div className="absolute -inset-2 sm:-inset-4 bg-gradient-to-r from-accent-400/20 via-accent-500/20 to-accent-400/20 rounded-2xl sm:rounded-3xl blur-xl"></div>
               <img
-                src="/Testo del paragrafo-2 copy.jpg"
+                src="https://i.imgur.com/bmVMW8C.jpeg"
                 alt="101 Receitas de Massas Fáceis e Práticas"
                 className="relative mx-auto w-full max-w-sm sm:max-w-2xl md:max-w-3xl lg:max-w-4xl h-auto rounded-xl sm:rounded-2xl shadow-elevated transition-all duration-500 hover:shadow-3xl"
                 loading="lazy"
