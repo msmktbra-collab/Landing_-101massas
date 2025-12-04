@@ -29,7 +29,7 @@ const BonusSection: React.FC = () => {
         <h2 className="text-xl md:text-2xl font-bold text-center mb-10 text-dark-700 px-2">
           <span className="inline-flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-3 justify-center">
             <Gift className="text-brand-600 mx-auto md:mx-0" size={28} />
-            <span>Bônus Inclusos <span className="gradient-text">(Sem Custo Extra)</span>:</span>
+            <span>Bônus Inclusos <span className="gradient-text">(na super oferta)</span>:</span>
           </span>
         </h2>
 
