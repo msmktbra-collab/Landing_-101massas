@@ -62,7 +62,7 @@ const OffersSection: React.FC = () => {
               <div className="text-5xl font-black gradient-text-accent mb-2">R$16</div>
               <p className="text-xs text-dark-500 mb-6">(Menos que um lanche na padaria!)</p>
               <a
-                href="#"
+                href="https://www.ggcheckout.com/checkout/v2/ydde3P8wVEq1HKS29D5K"
                 className="block w-full bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 text-white font-bold py-3 sm:py-4 px-5 sm:px-6 rounded-full text-sm sm:text-base shadow-lg hover:shadow-glow-lg transition-all duration-300 text-center whitespace-nowrap"
               >
                 QUERO A OFERTA BÁSICA
@@ -119,7 +119,7 @@ const OffersSection: React.FC = () => {
                 <div className="text-sm text-brand-600 line-through mb-1">De R$197 por apenas</div>
                 <div className="text-6xl font-black gradient-text-accent mb-4">R$27</div>
                 <a
-                  href="#"
+                  href="https://www.ggcheckout.com/checkout/v2/hRkH0dxrLGYRbC8i1A5M"
                   className="btn-gradient block w-full text-base md:text-lg animate-pulse-glow whitespace-nowrap"
                 >
                   <span>QUERO A SUPER OFERTA</span>
