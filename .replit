@@ -40,5 +40,5 @@ externalPort = 3002
 
 [deployment]
 deploymentTarget = "static"
-build = ["npm", "run", "build"]
-publicDir = "dist"
+build = ["bash", "-c", "cd project && npm run build"]
+publicDir = "project/dist"
